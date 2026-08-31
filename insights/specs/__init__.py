@@ -629,6 +629,7 @@ class Specs(SpecSet):
     pcs_config = RegistryPoint()
     pcs_quorum_status = RegistryPoint()
     pcs_status = RegistryPoint()
+    pesign_show_signature_shimx64 = RegistryPoint()
     php_ini = RegistryPoint(filterable=True)
     pidstat = RegistryPoint()
     pluginconf_d = RegistryPoint(multi_output=True)
