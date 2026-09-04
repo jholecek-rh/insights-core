@@ -3,6 +3,13 @@
 
 ## [Unreleased](https://github.com/RedHatInsights/insights-core/tree/HEAD)
 
+# [insights-core-3.8.1](https://github.com/RedHatInsights/insights-core/releases/tag/insights-core-3.8.1) (2026-09-04)
+
+- feat(RHINENG-29756): Add search methods to PodmanPsAllJson ([PR 4812](https://github.com/RedHatInsights/insights-core/pull/4812))
+- fix(parsers): support platform_firmware_information in dmidecode ([PR 4807](https://github.com/RedHatInsights/insights-core/pull/4807))
+- feat: Add pesign datasource with email filtering ([PR 4809](https://github.com/RedHatInsights/insights-core/pull/4809))
+- feat: extend AnsibleInfo combiner with receptor, runner, eda-controller, and gateway packages ([PR 4800](https://github.com/RedHatInsights/insights-core/pull/4800))
+
 # [insights-core-3.8.0](https://github.com/RedHatInsights/insights-core/releases/tag/insights-core-3.8.0) (2026-07-30)
 
 - feat: exclude insights.client.apps module from rpm building ([PR 4796](https://github.com/RedHatInsights/insights-core/pull/4796))

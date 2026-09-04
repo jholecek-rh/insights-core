@@ -13,7 +13,7 @@
 %endif
 
 Name:           insights-core
-Version:        3.8.0
+Version:        3.8.1
 Release:        1%{?dist}
 Summary:        Insights Core is a data collection and analysis framework.
 
@@ -123,6 +123,15 @@ install -D -p -m 0644 %{name}-selinux-%{version}/%{modulename}.if %{buildroot}%{
 %endif
 
 %changelog
+* Fri Sep 04 2026 Jan Holeček 3.8.1-1
+- feat(RHINENG-29756): Add search methods to PodmanPsAllJson (#4812)
+  (45922782+fstavela@users.noreply.github.com)
+- fix(parsers): support platform_firmware_information in dmidecode (#4807)
+  (amepatil@redhat.com)
+- Add pesign datasource with email filtering (#4809) (sabhasin@redhat.com)
+- feat: extend AnsibleInfo combiner with receptor, runner, eda-controller, and
+  gateway packages (#4800) (45922782+fstavela@users.noreply.github.com)
+
 * Thu Jul 30 2026 Ping Qin <piqin@redhat.com> 3.8.0-1
 - feat: exclude insights.client.apps module from rpm building
   (30404410+qinpingli@users.noreply.github.com)
